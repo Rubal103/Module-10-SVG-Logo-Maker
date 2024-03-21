@@ -1,4 +1,4 @@
-
+//requirements
 const inquirer = require("inquirer");
 const fs = require("fs");
 const { Triangle, Square, Circle } = require("./lib/shapes");
@@ -40,7 +40,7 @@ function writeToFile(fileName, answers) {
   });
 }
 
-
+//questions to let user choose among text, shape, colors 
 function promptUser() {
   inquirer
     .prompt([
